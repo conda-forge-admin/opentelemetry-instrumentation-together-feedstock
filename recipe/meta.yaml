@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-together" %}
-{% set version = "0.62.1" %}
+{% set version = "0.62.3" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_together-{{ version }}.tar.gz
-  sha256: 0a0ec73f9a01d0b80565570aac99c86e7c70e36549388d60cdfdbb96aec4e2aa
+  sha256: 371218bd0eb0324c5b2d86de4c71fa32edd053575d8a88c2a35897db6eca692f
   patches:
     - 0001-remove-runtime-together-dependency.patch
 
